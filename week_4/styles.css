@@ -24,12 +24,18 @@ body  {
 h1{
     
     color: saddlebrown;
-    
+    padding: 50px;
     
 }
 
 h2{
     color: rosybrown;
     
+    
+}
+
+ul{
+    
+    list-style: circle;
     
 }
