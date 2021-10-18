@@ -152,6 +152,15 @@ ul      {
         
         
     }
+    
+    .container  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: dense;
+    margin: 15px;
+    }
+    
     .item1  {
       
         background-color: lightgray;
@@ -188,13 +197,6 @@ ul      {
     h2  {
         color: saddlebrown;
         
-    }
-    .container  {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-auto-flow: dense;
-    margin: 15px;
     }
     
 }
